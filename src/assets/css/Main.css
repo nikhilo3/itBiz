@@ -1,0 +1,321 @@
+.btngetstart {
+    transition: all ease-in-out 500ms !important;
+}
+
+.btngetstart:hover {
+    background: linear-gradient(135deg, #7f6de3 0%, #11aaf1 100%) !important;
+}
+
+.logossvg {
+    height: 180px;
+    width: 180px;
+}
+
+/* our client */
+#ourclients {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f9f9f9;
+    padding-bottom: 30px;
+    height: 150px;
+}
+
+#ourclients .clients-wrap {
+    display: block;
+    width: 95%;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+#ourclients .clients-wrap ul {
+    display: block;
+    list-style: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ourclients .clients-wrap ul li {
+    display: block;
+    float: left;
+    position: relative;
+    width: 220px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+#ourclients .clients-wrap ul li img {
+    vertical-align: middle;
+    max-width: 100%;
+    width: 150px;
+    max-height: 100%;
+    -webkit-transition: 0 linear left;
+    -moz-transition: 0 linear left;
+    transition: 0 linear left;
+}
+
+#ourclients h3 {
+    border-bottom: 2px solid #3399ff;
+    width: 200px;
+    padding: 10px;
+}
+
+
+/* woweare */
+.imagewoweare img {
+    mask-image: url('../wowearemaskimg.svg');
+    -webkit-mask-image: url('../wowearemaskimg.svg');
+    mask-position: center center;
+    mask-repeat: no-repeat;
+    mask-size: auto auto;
+    width: 30rem;
+}
+
+.skillset-container {
+    max-width: 760px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.skillset {
+    margin-top: 0px;
+}
+
+.skill-lockup {
+    max-width: 450px;
+    width: 100%;
+    float: left;
+    margin-right: 40px;
+}
+
+.mr {
+    margin-right: 0;
+}
+
+.mb {
+    margin-bottom: 5px;
+}
+
+.skill-info {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    float: left;
+    color: #666;
+}
+
+.skill-status {
+    float: right;
+    color: #c4c4c4;
+    font-size: .8em;
+}
+
+.skill-bar {
+    display: block;
+    max-width: 450px;
+    width: 100%;
+    height: 5px;
+    background: #e3e3e5;
+    clear: both;
+    margin: 20px 0;
+}
+
+.skill-level {
+    display: table;
+    height: 5px;
+}
+
+.html-css,
+.JavaScript,
+.PHP,
+.Wordpress,
+.bootstrap,
+.Wordpress {
+    background: #2EA2CC;
+}
+
+.html-css {
+    width: 50%;
+    -webkit-animation: html-css 2s linear;
+    animation: html-css 2s linear;
+}
+
+.JavaScript {
+    width: 25%;
+    -webkit-animation: JavaScript 2s linear;
+    animation: JavaScript 2s linear;
+}
+
+.PHP {
+    width: 15%;
+    -webkit-animation: PHP 2s linear;
+    animation: PHP 2s linear;
+}
+
+.bootstrap {
+    width: 20%;
+    -webkit-animation: bootstrap 2s linear;
+    animation: bootstrap 2s linear;
+}
+
+.Wordpress {
+    width: 25%;
+    -webkit-animation: Wordpress 2s linear;
+    animation: Wordpress 2s linear;
+}
+
+
+/*-----------------------
+	  	Animations 
+-------------------------*/
+
+@-webkit-keyframes html-css {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes html-css {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 50%;
+    }
+}
+
+
+/*-----------------------
+	JavaScript Animation 
+-------------------------*/
+
+@-webkit-keyframes JavaScript {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 25%;
+    }
+}
+
+@keyframes JavaScript {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 25%;
+    }
+}
+
+
+/*-----------------------
+	PHP Animation 
+-------------------------*/
+
+@-webkit-keyframes PHP {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 15%;
+    }
+}
+
+@keyframes PHP {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 15%;
+    }
+}
+
+
+/*-----------------------
+bootstrap Animation  
+-------------------------*/
+
+@-webkit-keyframes bootstrap {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 20%;
+    }
+}
+
+@keyframes bootstrap {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 20%;
+    }
+}
+
+
+/*-----------------------
+   Wordpress Animation  
+-------------------------*/
+
+@-webkit-keyframes Wordpress {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 25%;
+    }
+}
+
+@keyframes Wordpress {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 25%;
+    }
+}
+
+
+/*-----------------------
+	  Media queries
+-------------------------*/
+
+@media screen and (max-width: 1000px) {
+    .skillset {
+        padding: 20px;
+    }
+    .skill-lockup {
+        max-width: 700px;
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+    .skill-bar {
+        max-width: 700px;
+        width: 100%;
+    }
+}
+
+
+
+/* techstack */
+
+.techlogo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    align-items: center;
+}
+
+.techlogo img{
+    height: 135px;
+    width: 135px;
+}
